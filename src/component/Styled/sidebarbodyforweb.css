@@ -1,0 +1,58 @@
+ .xxx{
+    display: none !important;
+ }
+ .mainbody{
+   padding:1rem;
+   width:100% !important;
+   overflow:hidden !important;
+ }
+ .searchbody{
+   width:60%;
+   
+ }
+ .searchinnerbody{
+   border-radius:2.1rem;
+   background-color: #F0F0F0;
+ }
+ .righthandinfo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 17.37px;
+   position: absolute;
+   width:50% !important;
+  
+ }
+ 
+ 
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {  
+     
+    }
+    
+    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+    @media (min-width: 768px) { 
+     
+       
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+      .xxx{
+         display: block !important;
+      }
+   
+  
+    }
+    
+    
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    
+     
+    
+    }
