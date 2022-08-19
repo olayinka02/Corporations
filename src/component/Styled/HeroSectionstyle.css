@@ -1,7 +1,7 @@
 
 .heroSection{
-    padding-left:0.5rem;
-    padding-right:0.5rem;
+    padding-left:2%;
+    padding-right:2%;
     background: url(../images/HeroSection.svg),#444A92;
     background-repeat:no-repeat;
     height:auto;
@@ -18,7 +18,7 @@ width:95%;
 font-family: 'Nunito';
 font-style: bold;
 font-weight: bolder;
-font-size: 2.5rem;
+font-size: 2.2rem;
 line-height: 130%;
 color: aliceblue;
 letter-spacing: 0.085em;
@@ -33,6 +33,7 @@ text-transform: capitalize
 .Herolefttextparagraph{
     width:97%;
     margin-top:0.8rem;
+    
     color: aliceblue;
     
 }
@@ -84,8 +85,8 @@ text-transform: capitalize
 
 @media (min-width: 576px) {
  .heroSection{
-    padding-left:0.5rem;
-    padding-right:0.5rem;
+    padding-left:2%;
+    padding-right:2%;
     background: url(../images/HeroSection.svg),#444A92;
     background-repeat:no-repeat;
     height:auto;
@@ -102,7 +103,7 @@ width:95%;
 font-family: 'Nunito';
 font-style: bold;
 font-weight: bolder;
-font-size: 2.5rem;
+font-size: 2.2rem;
 line-height: 130%;
 color: aliceblue;
 letter-spacing: 0.085em;
@@ -163,8 +164,8 @@ text-transform: capitalize
 
 @media (min-width: 768px) { 
  .heroSection{
-    padding-left:0rem;
-    padding-right:0rem;
+    padding-left:5%;
+    padding-right:5%;
 }
 .RightImagebody{
     margin-top:7rem;
@@ -195,8 +196,8 @@ text-transform: capitalize
 @media (min-width: 992px) { 
 
  .heroSection{
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left:5%;
+    padding-right:5%;
     background: url(../images/HeroSection.svg),#444A92;
     background-repeat:no-repeat;
     height:auto;
@@ -213,7 +214,7 @@ width:35rem;
 font-family: 'Nunito';
 font-style: bold;
 font-weight: bolder;
-font-size: 2.5rem;
+font-size: 2.2rem;
 line-height: 130%;
 color: aliceblue;
 letter-spacing: 0.085em;
@@ -253,8 +254,8 @@ text-transform: capitalize
 
 @media (min-width: 1200px) { 
  .heroSection{
-    padding-left:2rem;
-    padding-right:2rem;
+    padding-left:5%;
+    padding-right:5%;
     background: url(../images/HeroSection.svg),#444A92;
     background-repeat:no-repeat;
     height:auto;
@@ -322,8 +323,8 @@ text-transform: capitalize
  .howitworkbody{
     padding-top: 4.5rem;
     padding-bottom:4.5rem;
-    padding-left:0.5rem;
-    padding-right:0.5rem;
+    padding-left:2%;
+    padding-right:2%;
   
   }
    
@@ -365,7 +366,7 @@ text-transform: capitalize
     color: #58A0DF;
   }
   .howitworkbodyparagraph{
-    font-size:0.9rem;
+    font-size:0.5rem;
   }
   
   
@@ -387,8 +388,8 @@ text-transform: capitalize
    .howitworkbody{
     padding-top: 4.5rem;
     padding-bottom:4.5rem;
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:5%;
+    padding-right:5%;
   
   }
    
@@ -437,8 +438,8 @@ text-transform: capitalize
     .howitworkbody{
     padding-top: 4.5rem;
     padding-bottom:4.5rem;
-    padding-left:3rem;
-    padding-right:3rem;
+    padding-left:5%;
+    padding-right:5%;
   
   }
    
@@ -1084,7 +1085,7 @@ margin-left:3rem;
   }
   .Newslettertext{
     color:aliceblue;
-    font-size:1.4rem;
+    font-size:1.2rem;
    font-family: 'Nunito';
   }
   

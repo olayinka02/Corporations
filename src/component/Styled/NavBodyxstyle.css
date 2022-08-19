@@ -69,8 +69,8 @@
     .NavBarBody{
       background-color: #444A92;
       height:auto;
-      padding-left:0rem;
-      padding-right:0rem;
+      padding-left:5%;
+      padding-right:5%;
     }
     .navChildren{
       color: aliceblue !important;
@@ -99,11 +99,11 @@
     }
       
     .loginbtn{
-      margin-right:1rem;
-      margin-left:1.5rem;
+      margin-right:0rem;
+      margin-left:0rem;
       font-size: 0.3rem;
-      margin-top:auto;
-      margin-bottom:auto;
+      margin-top:1rem;
+      margin-bottom:1rem;
     }
     .Accountbtn{
       font-size:0.5rem;

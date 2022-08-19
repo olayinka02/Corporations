@@ -12,7 +12,7 @@ class TestimonialPage extends Component {
 
         return (
             <div className="TestimonialPage">
-                <h5 className="TestimonialHead">Testimonial</h5>
+                <h6 className="TestimonialHead">Testimonial</h6>
                 <p className="TestimonialText">orem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, </p><br />
 
                 <Container fluid className="howitworkbody">

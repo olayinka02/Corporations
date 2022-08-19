@@ -40,7 +40,7 @@ class NavBodyx extends Component {
 
                                 <Nav.Link >
                                     <Link className="navChildren" to="./price">How it works </Link>
-                                </Nav.Link>
+                                </Nav.Link> 
                                 <Nav.Link >
                                     <Link className="navChildren" to="./price">Features </Link>
                                 </Nav.Link>
