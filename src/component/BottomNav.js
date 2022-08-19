@@ -6,12 +6,11 @@ import logo from './images/logo.svg';
 
 
 
-
 class BottomNav extends Component {
   render() {
 
     return (
-      <div  className="BottomNav">
+      <div   className="BottomNav">
         <Container fluid>
             <Row>
             <Col sm={12} md={12} lg={4} xl={4}>
