@@ -33,7 +33,7 @@ text-transform: capitalize
 .Herolefttextparagraph{
     width:97%;
     margin-top:0.8rem;
-    
+    font-size:0.8rem;
     color: aliceblue;
     
 }
@@ -119,7 +119,7 @@ text-transform: capitalize
     width:97%;
     margin-top:0.8rem;
     color: aliceblue;
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 .getstartedbutton{
     width:60%;
@@ -230,7 +230,7 @@ text-transform: capitalize
     width:90%;
     margin-top:0.8rem;
     color: aliceblue;
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 .getstartedbutton{
     width:50% !important;
@@ -288,7 +288,7 @@ text-transform: capitalize
     width:90%;
     margin-top:0.8rem;
     color: aliceblue;
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 .getstartedbutton{
     width:40% !important;

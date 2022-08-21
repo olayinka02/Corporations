@@ -19,19 +19,19 @@ class RegistrationPage extends Component {
                     <Col className="LoginInformation" xs={12} md={6} >
                         <CarouselPage />
                         <footer>
-                        <ul  className="autolayout">
-                            <li>Amabillstech.com</li>
-                            <li>Technical Support</li>   
-                            <li>Terms Condition</li>   
-                            <li>Privacy</li>
-                        </ul>
-                       </footer>
+                            <ul className="autolayout">
+                                <li>Amabillstech.com</li>
+                                <li>Technical Support</li>
+                                <li>Terms Condition</li>
+                                <li>Privacy</li>
+                            </ul>
+                        </footer>
                     </Col>
 
                     <Col className="Logindiv" xs={12} md={6}>
                         <center>
                             <Link to="/">
-                            <Image className="loginlogo" src={loginlogo} fluid />
+                                <Image className="loginlogo" src={loginlogo} fluid />
                             </Link>
                             <div className="formfillbody">
 
@@ -116,11 +116,12 @@ class RegistrationPage extends Component {
                                     </Form.Group>
 
                                     <Link className="btnNowxx" to="/login">
-                                    <Button style={{ width: 100 + '%', borderRadius: 0.5 + 'rem', height: 2.4 + 'rem' }} variant="primary">
-                                        Registration
-                                    </Button></Link>
+                                        <Button style={{ width: 100 + '%', borderRadius: 0.5 + 'rem', height: 2.4 + 'rem' }} variant="primary">
+                                            Registration
+                                        </Button>
+                                    </Link>
                                     <br />
-                                    
+
                                     <p style={{ float: 'left', marginTop: 0.5 + 'rem', marginLeft: 0.5 + 'rem', color: '#1368D8', fontSize: 0.9 + 'rem', textAlign: 'left' }} className="text-muted">
                                         {" "}Already have an account,
                                         <Link to="/login">

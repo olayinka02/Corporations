@@ -1,6 +1,6 @@
 .loginbodyx{
     background-color: #FFFFFF;
-    height:100vh;
+    height:auto;
     width:100%;
 }
 .LoginInformationx{
@@ -19,7 +19,7 @@
     background-repeat: no-repeat !important;
     background-size: cover;
     text-align: center; 
-    height:100vh;
+    height:auto;
     width:100%;
 }
 .textbodyx{
@@ -78,7 +78,7 @@ margin-top:6rem !important;
 @media (min-width: 576px) {  
     .loginbodyx{
         background-color: #FFFFFF;
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .LoginInformationx{
@@ -96,7 +96,7 @@ margin-top:6rem !important;
         background:url(../images/loginandregistrationbackground.svg), #404690;
         background-repeat: no-repeat !important;
         text-align: center; 
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .textbodyx{
@@ -141,7 +141,7 @@ margin-top:6rem !important;
  
     .loginbodyx{
         background-color: #FFFFFF;
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .LoginInformationx{
@@ -159,7 +159,7 @@ margin-top:6rem !important;
         background:url(../images/loginandregistrationbackground.svg), #404690;
         background-repeat: no-repeat !important;
         text-align: center; 
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .textbodyx{
@@ -203,7 +203,7 @@ margin-top:6rem !important;
 @media (min-width: 992px) { 
     .loginbodyx{
         background-color: #FFFFFF;
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .LoginInformationx{
@@ -221,7 +221,7 @@ margin-top:6rem !important;
         background:url(../images/loginandregistrationbackground.svg), #404690;
         background-repeat: no-repeat !important;
         text-align: center; 
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .textbodyx{
@@ -277,7 +277,7 @@ margin-top:6rem !important;
 @media (min-width: 1200px) {
     .loginbodyx{
         background-color: #FFFFFF;
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .LoginInformationx{
@@ -294,7 +294,7 @@ margin-top:6rem !important;
     .Logindivx{
         background-color:#404690;
         text-align: center; 
-        height:100vh;
+        height:auto;
         width:100%;
     }
     .textbodyx{

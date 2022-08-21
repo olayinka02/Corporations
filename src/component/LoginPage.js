@@ -57,7 +57,7 @@ class LoginPage extends Component {
                                             </Col>
                                         </Row>
                                     </Form.Group><br />
-                                    <Link className="btnNowx" >
+                                    <Link className="btnNowx" to="/dashboard">
                                         <Button style={{ width: 100 + '%', borderRadius: 0.5 + 'rem', height: 2.8 + 'rem' }} variant="primary">
                                             Login
                                         </Button>
