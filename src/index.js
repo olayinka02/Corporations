@@ -8,7 +8,7 @@ import LoginPage from './component/LoginPage';
 import RegistrationPage from './component/RegistrationPage';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DashboardPage from './component/DashboardPage';
+import ResponsiveDashboard from './component/Dashboard/ResponsiveDashboard';
 
 
 const history = createBrowserHistory();
@@ -19,7 +19,7 @@ ReactDOM.render(
       <Route  path='/' exact component={App} />
       <Route  path='/login' component={LoginPage} />
       <Route  path='/registration' component={RegistrationPage} />
-      <Route  path='/dashboard' component={DashboardPage} />
+      <Route  path='/responsivedashboard' component={ResponsiveDashboard} />
     
     </Switch>
   </Router>,

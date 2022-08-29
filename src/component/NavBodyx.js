@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Container, Nav, Image, Button } from "react-bootstrap";
+import { Navbar, Container, Nav, Image, Button, } from "react-bootstrap";
 import { Sling as Hamburger } from 'hamburger-react';
 import './Styled/NavBodyxstyle.css';
 import logo from './images/logo.svg';
@@ -17,7 +17,7 @@ class NavBodyx extends Component {
 
         return (
             <div>
-                <Navbar  fixed="top"   expand="lg" className="NavBarBody">
+                <Navbar sticky="top"  expand="lg" className="NavBarBody">
                     <Container fluid>
                         <Navbar.Brand href="#home">
                             <Image src={logo} fluid />
@@ -40,7 +40,7 @@ class NavBodyx extends Component {
 
                                 <Nav.Link >
                                     <Link className="navChildren" to="./price">How it works </Link>
-                                </Nav.Link> 
+                                </Nav.Link>
                                 <Nav.Link >
                                     <Link className="navChildren" to="./price">Features </Link>
                                 </Nav.Link>
@@ -52,11 +52,12 @@ class NavBodyx extends Component {
                                 <Nav.Link >
                                     <Link className="navChildren" to="./price">Support </Link>
                                 </Nav.Link>
-                                 
+
+                               
                                 <Link className="btnNownavx" to="/login">
-                                <Button variant="light" className="loginbtn" size="sm">
-                                    Login
-                                </Button>
+                                    <Button variant="light" className="loginbtn" size="sm">
+                                        Login
+                                    </Button>
                                 </Link>
                                 {' '}
                                 <Link className="btnNownav" to="/registration">

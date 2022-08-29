@@ -13,9 +13,11 @@ class DashboardPage extends Component {
         return (
               
               <Container fluid>
-                <Row>
-                    <Col xs={12} md={2}><div style={{width:100+"%",height:50+'rem',backgroundColor:'blue',color:'white',left:0}}></div> </Col>
-                    <Col  xs={12} md={10} >BABAUGJACAUTAUOAA;HAGAUGUA GAJ AF AUIAJGGUOGUO</Col>
+                <Row style={{left:0,backgroundColor:'blue',height:100+'vh'}}>
+                    <Col xs={12} md={2}  style={{left:0,backgroundColor:'green',color:'yellow',}}>
+                       
+                    </Col>
+                    <Col  xs={12} md={10} ></Col>
                 </Row>
               </Container>
             
