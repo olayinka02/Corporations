@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image, Form, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import './Styled/LoginPagestyle.css';
+// import './Styled/LoginPagestyle.css';
 import loginlogo from './images/loginlogo.svg';
 import CarouselPage from "./CarouselPage";
 
@@ -14,12 +14,12 @@ class LoginPage extends Component {
     render() {
         return (
 
-            <Container fluid classname="loginbodyx">
+            <Container>
                 <Row>
-                    <Col className="LoginInformationx" xs={12} md={6} >
+                    <Col xs={12} md={6} >
                         <CarouselPage />
                         <footer>
-                            <ul className="autolayout">
+                            <ul>
                                 <li>Amabillstech.com</li>
                                 <li>Technical Support</li>
                                 <li>Terms Condition</li>
@@ -28,12 +28,12 @@ class LoginPage extends Component {
                         </footer>
                     </Col>
 
-                    <Col className="Logindivx" xs={12} md={6}>
+                    <Col xs={12} md={6}>
                         <center>
                             <Link to="/">
-                                <Image className="loginlogox" src={loginlogo} fluid />
+                                <Image src={loginlogo} fluid />
                             </Link>
-                            <div className="formfillbodyx">
+                            <div >
                                 <div>
                                     <h5 style={{ float: 'left', fontSize: 1.2 + 'rem' }}>Login</h5><br /><br />
                                     <h6 style={{ float: 'left', fontSize: 0.9 + 'rem', textAlign: 'left' }} >Welcome back! Please enter your details.</h6><br />
@@ -57,7 +57,7 @@ class LoginPage extends Component {
                                             </Col>
                                         </Row>
                                     </Form.Group><br />
-                                    <Link className="btnNowx" to="/responsivedashboard">
+                                    <Link  to="/responsivedashboard">
                                         <Button style={{ width: 100 + '%', borderRadius: 0.5 + 'rem', height: 2.8 + 'rem' }} variant="primary">
                                             Login
                                         </Button>
