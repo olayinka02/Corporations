@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image, Form, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-// import './Styled/LoginPagestyle.css';
+import './Styled/LoginPagestyle.css';
 import loginlogo from './images/loginlogo.svg';
 import CarouselPage from "./CarouselPage";
 
@@ -14,18 +14,18 @@ class LoginPage extends Component {
     render() {
         return (
 
-            <Container>
+            <Container className="loginPageBody">
                 <Row>
                     <Col xs={12} md={6} >
                         <CarouselPage />
-                        <footer>
+                        {/* <footer>
                             <ul>
                                 <li>Amabillstech.com</li>
                                 <li>Technical Support</li>
                                 <li>Terms Condition</li>
                                 <li>Privacy</li>
                             </ul>
-                        </footer>
+                        </footer> */}
                     </Col>
 
                     <Col xs={12} md={6}>
