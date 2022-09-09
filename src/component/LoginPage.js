@@ -14,7 +14,7 @@ class LoginPage extends Component {
     render() {
         return (
 
-            <Container className="loginPageBody">
+            <Container fluid className="loginPageBody">
                 <Row>
                     <Col xs={12} md={6} >
                         <CarouselPage />

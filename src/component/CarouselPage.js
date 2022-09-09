@@ -28,7 +28,8 @@ class CarouselPage extends Component {
                                             <div>
                                                 <Image src={loginimageone} fluid />
                                             </div>
-                                            <div>
+                                            <br/>
+                                            <div className="carouselTextbody">
                                                 <h4 className="headingloginx">Business activities at your <span style={{ color: "#58A0DF" }}>finger tips</span></h4>
                                                 <p className="paragraphloginx"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Lorem cras habitasse donec arcu enim eu, justo, nunc nulla.
@@ -46,7 +47,8 @@ class CarouselPage extends Component {
                                             <div>
                                                 <Image src={loginimagetwo} fluid />
                                             </div>
-                                            <div>
+                                            <br/>
+                                            <div  className="carouselTextbody">
                                                 <h4 className="headingloginx">Business activities at your <span style={{ color: "#58A0DF" }}>finger tips</span></h4>
                                                 <p className="paragraphloginx"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Lorem cras habitasse donec arcu enim eu, justo, nunc nulla.
@@ -64,7 +66,8 @@ class CarouselPage extends Component {
                                             <div>
                                                 <Image src={loginimagethree} fluid />
                                             </div>
-                                            <div>
+                                            <br/>
+                                            <div  className="carouselTextbody">
                                                 <h4 className="headingloginx">Business activities at your <span style={{ color: "#58A0DF" }}>finger tips</span></h4>
                                                 <p className="paragraphloginx"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                     Lorem cras habitasse donec arcu enim eu, justo, nunc nulla.
