@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import './Styled/HeroSectionstyle.css';
+import '../Styled/HeroSectionstyle.css';
 
-import VectorOne from './images/VectorOne.svg';
-import buttonarrow from './images/buttonarrow.svg';
-import RightImage from './images/RightImage.svg';
-import Line from './images/Line.svg';
-import marks from './images/marks.svg';
+import VectorOne from '../images/VectorOne.svg';
+import buttonarrow from '../images/buttonarrow.svg';
+import RightImage from '../images/RightImage.svg';
+import Line from '../images/Line.svg';
+import marks from '../images/marks.svg';
 
 
 

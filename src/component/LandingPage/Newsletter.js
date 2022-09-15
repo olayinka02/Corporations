@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
-import './Styled/HeroSectionstyle.css';
+import '../Styled/HeroSectionstyle.css';
 
 
 

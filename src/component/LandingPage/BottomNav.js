@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-
-import './Styled/HeroSectionstyle.css';
-import logo from './images/logo.svg';
+import { Container, Row, Col, Image, Nav } from 'react-bootstrap';
+//import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll" ;
+import '../Styled/HeroSectionstyle.css';
+import logo from '../images/logo.svg';
 
 
 
@@ -15,7 +16,12 @@ class BottomNav extends Component {
             <Row>
             <Col sm={12} md={12} lg={4} xl={4}>
             <div>
-               <Image src={logo} fluid /><br/><br/>
+            <Nav.Link >
+            <LinkRoll style={{marginLeft:-2+'rem',}}  to="navbar" spy={true} smooth={true} >
+               <Image src={logo} fluid />
+            </LinkRoll>
+            </Nav.Link>
+             
                 <p style={{color:'aliceblue',fontSize:0.9+'rem'}} >
                  360 Corporation is a Varius mauris semper blandit vestibulum, 
                  adipiscing condimentum. Malesuada pellentesque blandit nisl 

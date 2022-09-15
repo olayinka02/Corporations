@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import './Styled/HeroSectionstyle.css';
+import '../Styled/HeroSectionstyle.css';
 
-import FeaturesImageOne from './images/FeaturesImageOne.svg';
-import FeaturesImageThree from './images/FeaturesImageThree.svg';
-import FeaturesImageTwo from './images/FeaturesImageTwo.svg';
-import VectorTwo from './images/VectorTwo.svg';
-import ReadmoreArrow from './images/ReadmoreArrow.svg';
+import FeaturesImageOne from '../images/FeaturesImageOne.svg';
+import FeaturesImageThree from '../images/FeaturesImageThree.svg';
+import FeaturesImageTwo from '../images/FeaturesImageTwo.svg';
+import VectorTwo from '../images/VectorTwo.svg';
+import ReadmoreArrow from '../images/ReadmoreArrow.svg';
 
 
 class FeaturesPage extends Component {
     render() {
 
         return (
-            <div className="featuresbody">
+            <div id='features' className="featuresbody">
 
                 <h5 className="featureheading">features</h5>
                 <p className="featuretext">orem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, </p>

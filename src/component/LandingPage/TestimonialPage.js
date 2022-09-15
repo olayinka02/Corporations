@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Col, Row, Image } from 'react-bootstrap';
 
-import './Styled/HeroSectionstyle.css';
+import '../Styled/HeroSectionstyle.css';
 
-import bulletpoint from './images/bulletpoint.svg';
-import ReadmoreArrow from './images/ReadmoreArrow.svg';
+import bulletpoint from '../images/bulletpoint.svg';
+import ReadmoreArrow from '../images/ReadmoreArrow.svg';
 
 
 class TestimonialPage extends Component {

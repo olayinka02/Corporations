@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-import './Styled/HeroSectionstyle.css';
+import '../Styled/HeroSectionstyle.css';
 
-import bulletpoint from './images/bulletpoint.svg';
-import ReadmoreArrow from './images/ReadmoreArrow.svg';
+import bulletpoint from '../images/bulletpoint.svg';
+import ReadmoreArrow from '../images/ReadmoreArrow.svg';
 
 
 
@@ -12,7 +12,7 @@ class Howitwork extends Component {
     render() {
 
         return (
-            <div className="howitworkbody">
+            <div id="howitwork" className="howitworkbody">
                 <h5 className="howitwork">How it works</h5>
                 <p className="howitworktext">orem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, </p>
 
@@ -24,7 +24,6 @@ class Howitwork extends Component {
                                     <Row>
                                         <Col sm={2} md={2} lg={2} xl={2}>
                                             <Image src={bulletpoint} fluid  className="bulletimage"  alt=" "/>
-                                           
                                         </Col>
                                         <Col sm={10} md={10} lg={10} xl={10}>
                                             <h5 style={{marginTop:0.5+'rem',fontWeight:'bold',fontSize:1+'rem'}}>Lorem ipsum dolor sit amet,</h5>

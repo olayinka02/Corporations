@@ -3,18 +3,18 @@ import {  Image, Carousel } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 
-import './Styled/LoginPagestyle.css';
-import loginlogo from './images/loginlogo.svg';
-import loginimageone from './images/loginimageone.svg';
-import loginimagetwo from './images/loginimagetwo.svg';
-import loginimagethree from './images/loginimagethree.svg';
+import '../Styled/LoginPagestyle.css';
+import loginlogo from '../images/loginlogo.svg';
+import loginimageone from '../images/loginimageone.svg';
+import loginimagetwo from '../images/loginimagetwo.svg';
+import loginimagethree from '../images/loginimagethree.svg';
 
 
 class CarouselPage extends Component {
   render() {
 
     return (
-      <div>
+      <div className="innerCarouselPage">
         <Link to="/">
         <Image src={loginlogo} fluid />
         </Link>
