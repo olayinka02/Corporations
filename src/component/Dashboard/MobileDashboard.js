@@ -13,6 +13,7 @@ function MobileDashboard() {
       <Button variant="primary" onClick={handleShow}>
         Launch
       </Button>
+      <h1>hello</h1>
 
       <Offcanvas style={{width:50+'%'}} show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
