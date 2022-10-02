@@ -16,7 +16,7 @@ class RegistrationPage extends Component {
 
             <Container fluid className="loginPageBody">
                 <Row>
-                    <Col className="CarouselBody" xs={12} md={6} >
+                    <Col className="CarouselBody"  >
                     <div className="CarouselinnerBody">
                         <CarouselPage />
                         {/* <footer>
@@ -30,7 +30,7 @@ class RegistrationPage extends Component {
                         </div>
                     </Col>
 
-                    <Col className="loginForm" xs={12} md={6}>
+                    <Col className="loginForm" >
                         <center>
                             <Link to="/">
                                 <Image className="formlogo" src={loginlogo} fluid />
